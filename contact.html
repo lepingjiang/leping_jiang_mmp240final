@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Leping Jiang</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i&display=swap" rel="stylesheet">
+	<style>
+
+	</style>
+</head>
+
+<body>
+
+	<!--navigation-->
+	<header id="map3">
+		<h1><a href="index.html" id="logo"><img src="assets/img/jiang_logo.svg"></a></h1>
+
+		<button id="mb"><i class="fa fa-bars"></i></button>
+		<nav>
+			<ul>
+				<li>
+					<a href="index.html"><img src="assets/img/leping_home.svg" class="imhome"></a>
+				</li>
+				<li>
+					<a href="work.html"><img src="assets/img/portfolioc.svg" class="import"></a>
+				</li>
+				<li>
+					<a href="contact.html"><img src="assets/img/jiang_contact.svg" class="imcontact"></a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<!--pop up menu(technically) and senondary menu-->
+	<div class="dropdown">
+		<button class="dropbtn"><img src="assets/img/lj.svg" alt=""></button>
+		<div class="dropdown-content">
+			<a href="contact.html#map3"><img src="assets/img/up.svg" alt=""></a>
+			<a href="index.html"><img src="assets/img/h.svg" alt=""></a>
+			<a href="work.html"><img src="assets/img/w.svg" alt=""></a>
+			<a href="contact.html"><img src="assets/img/c.svg" alt=""></a>
+		</div>
+	</div>
+
+	<!--Parallax background-->
+	<div>
+		<img src="assets/img/leoabackground.svg" class="oa">
+	</div>
+
+	<div class="container p10 sper">
+		<h1><img src="assets/img/contactl.svg" class="pagetitle" style="width: 210px"></h1>
+	</div>
+
+
+	<div class="container">
+		<div class="c100">
+			<h5 class="p10">Fell free to leave me a message if you need more infomation or your are interested in collaboration.
+			</h5>
+			<h5 class="p10">Location: Brooklyn, NY</h5>
+			<h5 class="p10">E-Mail: leping28[at]gail.com</h5>
+		</div>
+	</div>
+
+
+<div class="container">
+	<div class="c33">
+		<a href="https://www.facebook.com/profile.php?id=100006001962315" class="p10"><img src="assets/img/faceb%20(1).png" class="smlogo p5"></a>
+		<a href="https://www.instagram.com/once_attenpt/?hl=en" class="p10"><img src="assets/img/isgn.png" class="smlogo p5"></a>
+		<a href="https://twitter.com/jiangleping" class="p10"><img src="assets/img/twitter.png" class="smlogo p5"></a>
+	</div>
+	</div>
+
+	<div class="container">
+		<div class="c100 p10">
+			<form class="formcontact">
+				<div>
+					<lable>
+						<h4>Name</h4><br>
+						<input type="text" name="fn" class="tp">
+					</lable>
+				</div><br>
+				<div>
+					<lable>
+						<h4>E-Mail</h4><br>
+						<input type="email" name="eml" class="tp">
+					</lable>
+				</div><br>
+				<div>
+					<lable>
+						<h4>Meaasge for me</h4><br>
+						<textarea name="msg" class="tp"></textarea>
+					</lable>
+				</div><br>
+				<input type="submit" class="btn" style="background: #fff; width: 100%">
+			</form>
+		</div>
+	</div>
+
+
+	<!--maybe copyrighted?-->
+	<footer>
+		<p class="tc a1 p5">&copy; 2019 All Right Reserved.</p>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+		$('#mb').click(function() {
+			$('nav').slideToggle();
+		});
+
+		$(window).resize(function() {
+			if (window.innerWidth > 499) {
+				$('nav').show();
+			}
+		});
+	</script>
+</body></html>

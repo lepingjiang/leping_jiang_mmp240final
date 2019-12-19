@@ -23,7 +23,8 @@
 }
 
 .sper {
-	border-bottom: 1px solid #c7d8d8;
+	border-bottom: 2px solid #c7d8d8;
+	padding-bottom: 30px;
 }
 
 .rcontainer {
@@ -63,6 +64,10 @@
 
 .c25 {
 	width: 25%;
+}
+
+.c125 {
+	width: 12.5%;
 }
 
 /*nav*/
@@ -140,6 +145,11 @@ nav a:hover {
 	height:;
 }
 
+.hightcontrol{
+	height: 400px;
+	width: auto
+}
+
 img {
 	width: 100%;
 }
@@ -151,7 +161,7 @@ img {
 }
 
 .applogo {
-	height: 140px;
+	height: 80px;
 	width: auto;
 }
 
@@ -172,6 +182,10 @@ img {
 	padding: 5px 15px;
 	border-radius: 1px;
 	margin-top: 5px;
+}
+
+.btnvps{
+	margin-top: 0px;
 }
 
 header ul li a img {
@@ -354,7 +368,8 @@ footer p {
 	.c33,
 	.c25,
 	.c732,
-	.c267 {
+	.c267,
+	.c125{
 		width: 100%;
 	}
 
@@ -377,6 +392,10 @@ footer p {
 	.imcontact {
 		width: 70px;
 	}
+	
+		.hightcontrol{
+		height: auto;
+		width: 92vw;
 	
 }
 

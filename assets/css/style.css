@@ -298,7 +298,7 @@ footer p {
 	font-size: 16px;
 	border: none;
 	position: fixed;
-	top: 50px;
+	top: 250px;
 	right: 10px;
 	width: 40px;
 	height: 40px;
@@ -318,7 +318,7 @@ footer p {
 	display: none;
 	position: fixed;
 	right: 10px;
-	top: 85px;
+	top: 285px;
 	background-color: #d9e8e8;
 	width: 40px;
 	border: 0px solid #33869e;

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Leping Jiang</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i&display=swap" rel="stylesheet">
+	<style>
+		canvas {
+			display: block;
+			margin: 0 auto;
+		}
+	</style>
+</head>
+
+<body>
+
+	<!--navigation-->
+	<header id="map">
+		<h1><a href="../index.html" id="logo"><img src="../assets/img/jiang_logo.svg"></a></h1>
+		<button id="mb"><i class="fa fa-bars"></i></button>
+		<nav>
+			<ul>
+				<li>
+					<a href="../index.html"><img src="../assets/img/leping_home.svg" class="imhome"></a>
+				</li>
+				<li>
+					<a href="../work.html"><img src="../assets/img/portfolioc.svg" class="import"></a>
+				</li>
+				<li>
+					<a href="../contact.html"><img src="../assets/img/jiang_contact.svg" class="imcontact"></a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<!--pop up menu(technically) and senondary menu-->
+	<div class="dropdown">
+		<button class="dropbtn"><img src="../assets/img/lj.svg" alt=""></button>
+		<div class="dropdown-content">
+			<a href="index.html#map"><img src="../assets/img/up.svg" alt=""></a>
+			<a href="../index.html"><img src="../assets/img/h.svg" alt=""></a>
+			<a href="../work.html"><img src="../assets/img/p.svg" alt=""></a>
+			<a href="../contact.html"><img src="../assets/img/c.svg" alt=""></a>
+		</div>
+	</div>
+
+	<!--Parallax background-->
+	<div>
+		<img src="../assets/img/leoabackground.svg" class="oa">
+	</div>
+
+
+
+	<!--project-->
+	<div class="">
+		<div class="container p50 tc" style="padding-bottom: 10px">
+			<div class="p5 c100">
+				<h2><img src="../assets/img/ppppp.svg" style="height: 50px;"></h2>
+			</div>
+		</div>
+	</div>
+
+	<div class="container p10" style="padding-top: 50px">
+		<div class="c66 p5">
+			<h2>
+				Candle fire with Arduino and p5.js
+			</h2>
+		</div>
+		<!--<div class="c33 p5">
+			<a href="https://lepingjiang.github.io/Leping_Jiang_mmp240_midterm/" class="btn btnvps">View Project Site</a>
+		</div>-->
+		<div class="c33 p5">
+			<a href="https://github.com/lepingjiang/MMP210_Leping_Jiang/tree/master/final" class="btn btnvps">View Code</a>
+		</div>
+	</div>
+
+
+
+	<div class="container p10">
+		<div class="c100">
+			<p class="p5">2019</p>
+			<p class="p5">Medium: Adobe InDesign</p>
+			<p class="p5">A project for multimedia design class use Adobe InDesign, that I need to make a magazine cover and magazine spread. The cover needs to have a clear title and title of the article that could be in the magazine and text must be readable.</p>
+			<p class="p5">My problem is the topic, I have two topics in mind, one is for gaming and one for computer. In the end choose computer as my topic, because at the time there is more exciting news for computer.</p>
+			<p class="p5">
+				The first design I was going for a retro theme, but I think the font didn’t work out on the cover but the spread is fine just a little boring, so I add some texture and color to the cover, and add color and change how image was place in the spread to make it more interesting.
+			</p>
+		</div>
+	</div>
+
+	<div class="container p10">
+
+		<div class="c100">
+			<div>
+				<video width="640" height="480" controls>
+					<source src="vid/Leping%20Jiang-Mmp210%20Final%20Dht%20Humidity%20Sensor.m4v" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+		</div>
+	</div>
+
+	<div class="container p10" style="padding-top: 50px">
+		<div class="c100 p5 sper">
+			<h3>
+				Final Output
+			</h3>
+		</div>
+	</div>
+
+	<p style="text-align: center; width: 480px; margin: auto">With Arduino and dht humidity sensor connected, the humidity change can cause fire on the candle to change, when humidity is too high the fire will be put out.<br> If Arduino and dht humidity sensor isn't connected you can use arrow key on the your keyboard to change the value.</p>
+	<div class="pjs">
+		<script src="p5.min.js"></script>
+		<script src="p5.sound.js"></script>
+		<script src="p5.serialport.js"></script>
+		<script src="sketch.js"></script>
+	</div>
+
+
+	<!--maybe copyrighted?-->
+	<!--	<footer style="position: ">
+		<p class="tc a1 p5">&copy; 2019 All Right Reserved.</p>
+	</footer>-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+		$('#mb').click(function() {
+			$('nav').slideToggle();
+		});
+
+		$(window).resize(function() {
+			if (window.innerWidth > 499) {
+				$('nav').show();
+			}
+		});
+	</script>
+</body></html>

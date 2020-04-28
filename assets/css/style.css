@@ -81,7 +81,7 @@ header {
 	border-bottom: 0px solid #c7d8d8;
 	position: relative;
 	background: #d9e8e8;
-	height: 50px;
+	height: 70px;
 }
 
 header h1 {
@@ -93,10 +93,10 @@ header h1 {
 	font-weight: normal;
 	text-decoration: none;
 	color: #aaa;*/
-	padding-top: 5px;
+	padding-top: 15px;
 	padding-left: 10px;
 	display: inline-block;
-	width: 200px;
+	width: 260px;
 	position: absolute;
 	right: 10px;
 }
@@ -134,9 +134,10 @@ nav a {
 	display: inline-block;
 	border: 0px solid #31869e;
 	color: #31869e;
-	padding: 13px 15px;
-	padding-top: 17px;
+	padding: 19px 15px;
+	padding-top: 22px;
 	border-radius: 0px;
+	height: 
 }
 
 nav a:hover {
@@ -199,19 +200,19 @@ img {
 }
 
 header ul li a img {
-	height: 16px;
+	height: 25px;
 }
 
 .imhome {
-	width: 55px;
+	width: 75px;
 }
 
 .import {
-	width: 100px;
+	width: 150px;
 }
 
 .imcontact {
-	width: 95px;
+	width: 140px;
 }
 
 .btn:hover {
@@ -266,6 +267,10 @@ h4,
 h5,
 h6 {
 	font-family: Arial;
+}
+
+h4{
+	font-weight: normal
 }
 
 h1 {
@@ -374,7 +379,7 @@ footer p {
 
 
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:750px) {
 
 	.container,
 	.rcontainer,
@@ -396,36 +401,50 @@ footer p {
 		width: 100%;
 	}
 
+	
+	
+	nav a {
+	text-decoration: none;
+	display: inline-block;
+	border: 0px solid #31869e;
+	color: #31869e;
+	padding: 22px 5px;
+	padding-top: 26px;
+	border-radius: 0px;
+	height: 
+}
+	
+	
 	.nameimg {
 		width: 40%
 	}
 
 	header ul li a img {
-		height: 12px;
+		height: 18px;
 	}
 
 	.imhome {
-		width: 40px;
+		width: 65px;
 	}
 
 	.import {
-		width: 80px;
+		width: 134px;
 	}
 
 	.imcontact {
-		width: 70px;
+		width: 130px;
 	}
 	
 		.hightcontrol{
 		height: auto;
-		width: 92vw;
+		width: 90vw;
 	
 }
 
 
 
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:600px) {
 	.oa{
 		width: 500px;
 		height: 500px;
@@ -490,19 +509,19 @@ footer p {
 	}
 
 	header ul li a img {
-		height: 12px;
+		height: 20px;
 	}
 
 	.imhome {
-		width: 40px;
+		width: 65px;
 	}
 
 	.import {
-		width: 80px;
+		width: 134px;
 	}
 
 	.imcontact {
-		width: 70px;
+		width: 130px;
 	}
 }
 

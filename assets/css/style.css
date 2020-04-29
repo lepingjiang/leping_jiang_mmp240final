@@ -300,6 +300,14 @@ footer p {
 	opacity: 0.4;
 }
 
+p{
+	font-size: 20px;
+}
+
+.dateonly{
+	font-style: italic;
+}
+
 /*Dropdown menu or secondary menu*/
 .dropbtn {
 	background-color: rgba(199l, 216, 216, 0.7);
